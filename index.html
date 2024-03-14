@@ -352,7 +352,20 @@
 					<span class="glyphicon glyphicon-info-sign mobiletooltip" aria-hidden="true" title = "Better mining techniques and tools allow your miner to find silver veins. Miners now find 0.5 silver per second." rel="tooltip"></span>
 					<br />
 					<img src = "images/money_goldsmall.png" title ="Gold" ><span id = 'minerUpgrade2GoldCost'>7,500</span> | <img src = "images/ironsmall.png" title="Iron"><span id = 'minerUpgrade2IronCost'>2,500</span>
-					<br />					
+					<br />	
+					
+					<div class="btn-group" role="group" aria-label="...">
+				<button id=btnbuyCoalMiner onclick="CoalMiner.buyOne()"	type="button" class="btn btn-default">Specialize Miner</button>
+				<button id=btnbuyCoalMiner10 onclick="CoalMiner.buyTen()"	type="button" class="btn btn-default">x10</button>
+			</div>
+			<button id=btnCoalMinerUpgrade class="btn btn-default" type="button" class="btn btn-default" data-toggle="collapse" data-target="#CoalMinerUpgradeTab" aria-expanded="false" aria-controls="CoalMinerUpgradeTab">Upgrades</button>
+			<br />
+			 <img src = "images/money_goldsmall.png" title ="Gold" > <span id="CoalMinerCost">40,000</span> | <img src = "images/ironsmall.png" title="Iron"> <span id="CoalMinerIronCost">20,000</span> | <img src = "images/silverOresmall.png" title="Silver"> <span id="CoalMinerSilverCost">15,000</span> | <span id = "coalMinerReqUnit">1 miner</span>
+			<br />
+			<div id ="CoalMinerUpgradeTab" class = "upgrade collapse">
+				<div class = "well">
+					No Upgrades for Coal Miners yet
+				</div>
 				</div>
 			</div>
 			<br />
